@@ -1,0 +1,70 @@
+/* universal styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    color: white;
+    background: rgb(229,252,194);
+    background: linear-gradient(180deg, rgba(229,252,194,1) 0%, rgba(84,121,128,1) 50%, rgba(89,79,79,1) 100%);
+    background-size: 100vw 100vh;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* header & nav */
+
+header {
+    background-color: #547980;
+    border-bottom: 3px solid #594f4f;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+}
+
+header h1 {
+    font-weight: 500;
+    font-size: 3em;
+    color: #9de0ad;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.5em;
+    padding-top: 15px;
+}
+
+nav ul {
+    text-align: center;
+    margin: 10px;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    padding: 20px;
+}
+
+/* contact info */
+
+.contact-content {
+    margin: 20px auto;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 300;
+}
