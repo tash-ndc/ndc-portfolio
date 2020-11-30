@@ -13,8 +13,8 @@ body {
     letter-spacing: 0.1em;
     line-height: 1.5em;
     color: white;
-    background: rgb(229,252,194);
-    background: linear-gradient(180deg, rgba(229,252,194,1) 0%, rgba(84,121,128,1) 50%, rgba(89,79,79,1) 100%);
+    background: rgb(191,209,163);
+    background: linear-gradient(209deg, rgba(191,209,163,1) 0%, rgba(66,93,98,1) 50%, rgba(68,61,61,1) 100%);
     background-size: 100vw 100vh;
 }
 
@@ -45,6 +45,13 @@ header h1 {
     text-align: center;
     letter-spacing: 0.5em;
     padding-top: 15px;
+}
+
+@media only screen and (max-width: 760px) {
+    header h1 {
+        line-height: 1em;
+        letter-spacing: 0.3em;
+    }
 }
 
 nav ul {
